@@ -1,5 +1,5 @@
 import time
 
-for i in range(100):
+for i in range(5):
     print("Hello world")
-    time.sleep(5)
+    time.sleep(1)
