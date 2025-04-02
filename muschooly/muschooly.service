@@ -4,6 +4,7 @@ After=network.target
 
 [Service]
 User=mrblmg
+Group=mrblmg
 WorkingDirectory=/home/mrblmg/sercives/fuzzy-octo/muschooly
 ExecStart=/home/mrblmg/sercives/fuzzy-octo/muschooly/start.sh
 Restart=always
