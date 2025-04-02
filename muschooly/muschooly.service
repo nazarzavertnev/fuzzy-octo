@@ -3,7 +3,7 @@ Description=Service 1
 After=network.target
 
 [Service]
-User=pi
+User=mrblmg
 WorkingDirectory=/home/mrblmg/sercives/fuzzy-octo/muschooly
 ExecStart=/home/mrblmg/sercives/fuzzy-octo/muschooly/start.sh
 Restart=always
