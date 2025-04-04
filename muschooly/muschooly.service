@@ -4,9 +4,8 @@ After=network.target
 
 [Service]
 User=mrblmg
-Group=mrblmg
-WorkingDirectory=/usr/bin/bash -c 'echo "$HOME"/sercives/fuzzy-octo-test/muschooly'
-ExecStart=/usr/bin/bash -c 'echo "$HOME"/fuzzy-octo-test/muschooly/start.sh'
+WorkingDirectory=%h/sercives/fuzzy-octo-test/muschooly'
+ExecStart=%u/fuzzy-octo-test/muschooly/start.sh'
 Restart=always
 
 [Install]
