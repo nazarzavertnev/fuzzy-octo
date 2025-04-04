@@ -4,8 +4,8 @@ After=network.target
 
 [Service]
 User=mrblmg
-WorkingDirectory=~/sercives/fuzzy-octo-test/muschooly
-ExecStart=~/fuzzy-octo-test/muschooly/start.sh
+WorkingDirectory=~mrblmg/sercives/fuzzy-octo-test/muschooly
+ExecStart=~mrblmg/fuzzy-octo-test/muschooly/start.sh
 Restart=always
 
 [Install]
